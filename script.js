@@ -96,3 +96,12 @@ js_logo.onmouseleave = event =>
 {
     event.target.src = "img/jsBW.png";
 };
+
+// Timer
+const timer = document.getElementById("time-container");
+const startTime = Date.now();
+
+setInterval(startTime => 
+{
+    timer.innerHTML = (parseInt(timer.innerHTML) + 1).toString();
+}, 1000);

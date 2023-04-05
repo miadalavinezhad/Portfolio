@@ -52,15 +52,17 @@ nav a {
 /* Contact */
 #contact {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 60px 10px;
+    text-align: center;
 }
 
 #contact p {
     font-size: 19px;
     font-weight: 300;
     margin-bottom: 15px;
+    
 }
 
 #logos {
